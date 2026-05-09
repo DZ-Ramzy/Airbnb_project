@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Tool-specific local files
+.claude/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Model/cache artifacts
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.cache
+
+# Build/test outputs
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
